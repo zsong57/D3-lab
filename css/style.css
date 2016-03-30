@@ -1,40 +1,12 @@
 /* 575 boilerplate style.css */
-.container {
-	background-color:#efe3ec; 
+.countries {
+    fill: BLACK;
+    stroke: #fff;
+    stroke-width: 0.5px;
 }
 
-.myRectangle {
-	fill: white;
-	x:80;
-	y:40;
-	
-}
-
-.axis path,
-.axis line {
+.gratLines {
     fill: none;
-    stroke: gray;
+    stroke: #999;
     stroke-width: 1px;
-    shape-rendering: crispEdges;
 }
-
-.axis text {
-    font-family: Georgia;
-    font-size: 0.8em;
-	fill:gray;
-}
-
-.title {
-    font-family: Georgoia;
-    font-size: 1.5em;
-    font-weight: bold;
-	fill:gray;
-}
-
-.nameLine
-{ font-family:Georgia;
-fill:gray;}
-.popLine
-{ font-family:Georgia;
-fill:gray;}
-
