@@ -1,12 +1,58 @@
-/* 575 boilerplate style.css */
+
 .countries {
-    fill: BLACK;
-    stroke: #fff;
+ stroke: gray;
     stroke-width: 0.5px;
+    stroke-linecap: round;
 }
 
 .gratLines {
     fill: none;
+    stroke: gray;
+    stroke-width: 0.3px;
+}
+
+.map {
+    border-style: double;
+    border-color: gray;
+    margin: 10px 0 0 20px;
+}
+
+.chart {
+    
+   border-style: double;
+    border-color: gray;
+    float: right;
+    margin: 10px 20px 0 0;
+}
+
+.chartTitle {
+    font-family: Garamond;
+	 fill: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.chartBackground {
+    fill: #65B1C0;
+}
+
+.chartFrame {
+    fill: none;
+    stroke: white;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+    fill: none;
     stroke: #999;
-    stroke-width: 1px;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: Garamond;
+    font-size: 1.2em;
+    fill: #999;
 }
