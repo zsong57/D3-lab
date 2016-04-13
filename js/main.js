@@ -44,7 +44,7 @@ window.onload = setMap();
 //set up choropleth map
 function setMap(){
     // map frame dimensions
-    var width = window.innerWidth * 0.645,
+    var width = window.innerWidth * 0.66,
         height = 650;
 
     //create new svg container for the map
@@ -64,7 +64,7 @@ function setMap(){
     //Set the projection
     var projection = d3.geo.fahey()
 	.center([-30, 26])
-        .scale(245)
+        .scale(200)
         .translate([width / 3, height / 2.2])
         .precision(.1);
 
